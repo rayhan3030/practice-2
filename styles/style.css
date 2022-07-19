@@ -1,0 +1,128 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 5%;
+}
+
+.nav-menu,
+li {
+    list-style: none;
+    font-size: 13px;
+}
+
+.nav-menu li>i {
+
+    font-size: 16px;
+}
+
+.nav-menu {
+    border: 1px dotted lightcoral;
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 35%;
+
+
+}
+
+.nav {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.nav h2 {
+    font-size: 24px;
+}
+
+ul.nav-menu {
+    padding: 00px 0px 0px 0px;
+}
+
+/* top section style ------------------start------------------ */
+.article {
+    border: 1px dotted lightcoral;
+    width: 40%;
+}
+
+.article h1 {
+    font-size: 2.5em;
+    margin-bottom: 0em;
+}
+
+.article p {
+    font-size: 1em;
+    margin-top: 0px;
+    margin-bottom: 2.5em;
+}
+
+.article a {
+    text-decoration: none;
+    background-color: #e02c6d;
+    border-radius: 20px;
+    color: white;
+    padding: .5em;
+}
+
+.img-camera {
+    background-image: url(/images/Circle\ design.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px dotted lightblue;
+    width: 40%;
+    /* width: 440px;
+    height: 414px; */
+
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6%;
+}
+
+/* top section style ------------------end------------------ */
+/* Logos */
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(87, 77, 77, 0.75), rgba(46, 43, 43, 0));
+}
+
+/* mid section style */
+#p .span {
+    font-weight: 600;
+    color: #888888;
+}
+
+#p .fa-star,
+.fa-star-half-stroke {
+    color: goldenrod;
+}
+
+.mid-box {
+    width: 329px;
+    height: 476px;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 30px 10px #e6dddd;
+}
+
+.parent-div {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-gap: 2em;
+
+}
